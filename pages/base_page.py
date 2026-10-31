@@ -8,3 +8,7 @@ class BasePage(ABC):
 
     def open(self, url):
         self.driver.get(url)
+
+    @property
+    def title(self):
+        return self.driver.title
