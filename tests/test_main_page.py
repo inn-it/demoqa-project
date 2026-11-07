@@ -15,3 +15,9 @@ class TestMainPage:
         main_page.open(data.BASE_URL)
 
         assert main_page.current_url == data.BASE_URL
+
+    def test_main_page_cards_number_is_6(self, driver):
+        main_page = MainPage(driver)
+        main_page.open(data.BASE_URL)
+
+        assert main_page.get_cards_number_on_page() == data.CADS_NUMBER_IS_SIX
