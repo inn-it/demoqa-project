@@ -8,4 +8,4 @@ class TestMainPage:
         main_page = MainPage(driver)
         main_page.open(data.BASE_URL)
 
-        assert main_page.title == data.YANDEX_TITLE
+        assert main_page.title == data.DEMOQA_TITLE_ON_MAIN_PAGE

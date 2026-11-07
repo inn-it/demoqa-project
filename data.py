@@ -1,3 +1,3 @@
-BASE_URL = 'https://ya.ru'
+BASE_URL = 'https://demoqa.com/'
 
-YANDEX_TITLE = "Яндекс — быстрый поиск в интернете"
+DEMOQA_TITLE_ON_MAIN_PAGE = "demosite"
