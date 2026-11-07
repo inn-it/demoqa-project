@@ -16,3 +16,7 @@ class BasePage(ABC):
     @property
     def current_url(self):
         return self.driver.current_url
+
+    def get_text(self, locator):
+        element = self.driver.find_element(*locator)
+        return element.text
